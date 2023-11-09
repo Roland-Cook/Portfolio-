@@ -1,11 +1,21 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
+
+
+import reactImg from "../assets/img/skillsImg/reactjs.png"
+import JsImg from "../assets/img/skillsImg/javascript.png"
+import pyImg from "../assets/img/skillsImg/python.png"
+import twImg from "../assets/img/skillsImg/tailwind.png"
+import bs from "../assets/img/skillsImg/bootstrap.png"
+import sass from "../assets/img/skillsImg/sass.png"
+import docker from "../assets/img/skillsImg/docker.png"
+import git from "../assets/img/skillsImg/git.png"
+import html from "../assets/img/skillsImg/html.png"
+import css from "../assets/img/skillsImg/css.png"
+import django from "../assets/img/skillsImg/django.png"
+import fapi from "../assets/img/skillsImg/fastapi.png"
+
 
 export const Skills = () => {
   const responsive = {
@@ -35,30 +45,62 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        {/* <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p> */}
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={html} alt="img" />
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <img src={css} alt="img" />
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <img src={JsImg} alt="img" />
+                                <h5>JavaScript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={reactImg} alt="img" />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={twImg} alt="img" />
+                                <h5>Tailwind</h5>
+                            </div>
+                            <div className="item">
+                                <img src={sass} alt="img" />
+                                <h5>Sass</h5>
+                            </div>
+                            <div className="item">
+                                <img src={bs} alt="img" />
+                                <h5>Bootstrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={pyImg} alt="img" />
+                                <h5>Python</h5>
+                            </div>
+                            <div className="item">
+                                <img src={django} alt="img" />
+                                <h5>Django</h5>
+                            </div>
+                            <div className="item">
+                                <img src={fapi} alt="img" />
+                                <h5>FastApi</h5>
+                            </div>
+                            <div className="item">
+                                <img src={git} alt="img" />
+                                <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={docker} alt="img" />
+                                <h5>Docker</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="img" />
     </section>
   )
 }

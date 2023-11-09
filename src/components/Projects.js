@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -11,35 +12,30 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Cosmos",
+      description: "This application was built to model planets, planetary systems and the overall navigation of celestial bodies.",
       imgUrl: projImg1,
+      link: "https://gitlab.com/Cook.r/planets"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "JumpSched",
+      description: "A full stack app that allows users to sign-up for skyidives.",
       imgUrl: projImg2,
+      link: "https://gitlab.com/fall-guys/JumpSched"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Scrumptious",
+      description: "A Django application that helps users manage recipes they have. This application allows users to create and edit recipes.",
       imgUrl: projImg3,
+      link: "https://gitlab.com/Cook.r/scrumptious"
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "CarCar",
+      description: "This application was built to encompass the sales side and the service side of a car dealership.",
+      imgUrl: projImg4,
+      link: "https://gitlab.com/Cook.r/carcar"
     },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+
   ];
 
   return (
@@ -53,17 +49,6 @@ export const Projects = () => {
                 <h2>Projects</h2>
                 <p>Welcome to my portfolio. Here, you'll find a variety of projects that showcase my skills and dedication. Explore my projects and don't hesitate to contact me with any questions or opportunities</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                    <Nav.Item>
-                      <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                    </Nav.Item>
-                  </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
                       <Row>
