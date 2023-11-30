@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ " A Web Developer", "A Full Stack Developer ", "A  UI/UX Designer" ];
+  const toRotate = [ " A Web Developer", "A Full Stack Developer", "A  UI/UX Designer" ];
   const period = 1000;
 
   useEffect(() => {

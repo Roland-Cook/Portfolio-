@@ -31,10 +31,10 @@ export const Projects = () => {
       link: "https://gitlab.com/Cook.r/scrumptious"
     },
     {
-      title: "CarCar",
+      title: "GarageGuardian",
       description: "This application was built to encompass the sales side and the service side of a car dealership.",
       imgUrl: projImg4,
-      link: "https://gitlab.com/Cook.r/carcar"
+      link: "https://gitlab.com/Cook.r/GarageGuardian"
     },
     {
       title: "Ticket Master",

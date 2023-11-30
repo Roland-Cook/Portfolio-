@@ -20,7 +20,7 @@ export const Contact = (e) => {
   
       emailjs.sendForm('service_33d63ox', 'template_3d74iub', form.current, '2tH0N6qi7MUym95Uv')
         .then((result) => {
-      console.log("Email Sent",result.status);
+      console.log("Email Sent", result.status);
       fname.current.value = ""
       lname.current.value = ""
       email.current.value = ""
