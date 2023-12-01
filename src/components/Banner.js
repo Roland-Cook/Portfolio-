@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ " A Web Developer", "A Full Stack Developer", "A  UI/UX Designer" ];
+  const toRotate = ["A Frontend Developer" ];
   const period = 1000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Roland`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "A Web Developer", "A Full Stack Developer", "A UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>A passionate developer based in the city of Charlotte, North Carolina, with a proven track record of creating exceptional websites and applications that bring ideas to life. </p>
+                  <p>A skilled developer based in the city of Charlotte, North Carolina, with a passion for creating exceptional websites and applications that bring ideas to life. </p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

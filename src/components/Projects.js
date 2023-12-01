@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img-4.png";
+import projImg6 from "../assets/img/Create-pro.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -39,8 +40,8 @@ export const Projects = () => {
     {
       title: "Ticket Master",
       description: "Ticket Master is a React and Next.js-powered ticketing app with MongoDB this application simplifies issue management for teams.",
-      imgUrl: projImg5,
-      link: "hhttps://gitlab.com/Cook.r/ticketing-app"
+      imgUrl: projImg6,
+      link: "https://gitlab.com/Cook.r/ticketing-app"
     },
 
   ];
