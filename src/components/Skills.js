@@ -20,7 +20,7 @@ import fapi from "../assets/img/skillsImg/fastapi.png"
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
+      
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
