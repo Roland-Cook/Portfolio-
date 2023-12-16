@@ -20,16 +20,16 @@ export const Projects = () => {
     },
     {
       title: "JumpSched",
-      description: "A full stack app that allows users to sign-up for skyidives.",
+      description: "A full stack app that allows users to book skydives and create accounts to manage their scheduled jumps.",
       imgUrl: projImg2,
       link: "https://gitlab.com/fall-guys/JumpSched"
     },
-    {
-      title: "Scrumptious",
-      description: "A Django application that helps users manage recipes they have. This application allows users to create and edit recipes.",
-      imgUrl: projImg3,
-      link: "https://gitlab.com/Cook.r/scrumptious"
-    },
+    // {
+    //   title: "Scrumptious",
+    //   description: "A Django application that helps users manage recipes they have. This application allows users to create and edit recipes.",
+    //   imgUrl: projImg3,
+    //   link: "https://gitlab.com/Cook.r/scrumptious"
+    // },
     {
       title: "GarageGuardian",
       description: "This application was built to encompass the sales side and the service side of a car dealership.",
