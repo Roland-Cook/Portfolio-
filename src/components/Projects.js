@@ -52,11 +52,11 @@ export const Projects = () => {
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
+              <div>
                 <h2>Projects</h2>
                 <p>Welcome to my portfolio. Here, you'll find a variety of projects that showcase my skills and dedication. Explore my projects and don't hesitate to contact me with any questions or opportunities</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                  <Tab.Content id="slideInUp" >
                     <Tab.Pane eventKey="first">
                       <Row>
                         {
