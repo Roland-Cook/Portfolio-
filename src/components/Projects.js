@@ -16,32 +16,20 @@ export const Projects = () => {
       title: "Cosmos",
       description: "This application was built to model planets, planetary systems and the overall navigation of celestial bodies.",
       imgUrl: projImg1,
-      link: "https://gitlab.com/Cook.r/planets"
+      link: "https://github.com/Roland-Cook/Cosmos"
     },
     {
       title: "JumpSched",
       description: "A full stack app that allows users to book skydives and create accounts to manage their scheduled jumps.",
       imgUrl: projImg2,
-      link: "https://gitlab.com/fall-guys/JumpSched"
+      link: "https://github.com/Roland-Cook/JumpSched"
     },
-    // {
-    //   title: "Scrumptious",
-    //   description: "A Django application that helps users manage recipes they have. This application allows users to create and edit recipes.",
-    //   imgUrl: projImg3,
-    //   link: "https://gitlab.com/Cook.r/scrumptious"
-    // },
     {
       title: "GarageGuardian",
       description: "This application was built to encompass the sales side and the service side of a car dealership.",
       imgUrl: projImg4,
-      link: "https://gitlab.com/Cook.r/GarageGuardian"
-    },
-    {
-      title: "Ticket Master",
-      description: "Ticket Master is a React and Next.js-powered ticketing app with MongoDB this application simplifies issue management for teams.",
-      imgUrl: projImg6,
-      link: "https://gitlab.com/Cook.r/ticketing-app"
-    },
+      link: "https://github.com/Roland-Cook/GarageGuardian"
+    }
 
   ];
 

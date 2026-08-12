@@ -14,6 +14,7 @@
 	font-weight: 400;
 }
 
+
 /************ Default Css ************/
 * {
   margin: 0;
@@ -26,6 +27,22 @@ html {
   scroll-padding-top: 75px;
 }
 
+.hidden-text{
+  display: none;
+}
+
+/* Visible / Default state (White text) */
+.not-hidden {
+  color: #ffffff; 
+  display: block; /* or whatever layout property you need */
+  background-color: transparent;
+}
+
+/* Hidden state */
+.hidden-text {
+  background-color: transparent;
+  display: none; /* or use color: #999999; if you just want to change color instead of hiding */
+}
 body {
   font-weight: 400;
   overflow-x: hidden;
@@ -219,6 +236,9 @@ nav.navbar .navbar-toggler-icon:before {
 }
 nav.navbar .navbar-toggler-icon:after {
 	top: 8px;
+}
+.github-logo{
+  transform: scale(1.50)
 }
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
 	transform: rotate(45deg);
@@ -525,6 +545,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+}
+form input{
+    background: transparent !important;
+
 }
 .contact form button span {
   z-index: 1;

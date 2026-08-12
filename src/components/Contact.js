@@ -5,7 +5,10 @@ import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import emailjs, { send } from '@emailjs/browser';
 
+  
+
 export const Contact = (e) => {
+    const [isActive, setIsActive] = useState(false);
 
     const form = useRef();
     let fname = useRef()
@@ -48,7 +51,8 @@ export const Contact = (e) => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div>
-                <h2>Get In Touch</h2>
+                <h2 className={`${isActive ? 'hidden-text' : 'not-hidden'}`}>Get In Touch</h2>
+                <h2 className={`${isActive ? 'not-hidden' : 'hidden-text'}`}>Message Sent!</h2>
                 <form ref={form} onSubmit={sendEmail} >
                   <Row>
                     <Col size={12} sm={6} className="px-1">
@@ -66,7 +70,7 @@ export const Contact = (e) => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" placeholder="Message" ref={message} name='message' ></textarea>
-                      <button type="submit"><span>Send</span></button>
+                      <button type="submit" onClick={() => setIsActive(!isActive)} ><span>Send</span></button>
                     </Col>
 
                   </Row>

@@ -71,14 +71,6 @@ export const Skills = () => {
                                 <h5>Next.js</h5>
                             </div>
                             <div className="item">
-                                <img src={twImg} alt="img" />
-                                <h5>Tailwind</h5>
-                            </div>
-                            <div className="item">
-                                <img src={sass} alt="img" />
-                                <h5>Sass</h5>
-                            </div>
-                            <div className="item">
                                 <img src={bs} alt="img" />
                                 <h5>Bootstrap</h5>
                             </div>
