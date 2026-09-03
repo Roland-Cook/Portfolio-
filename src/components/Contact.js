@@ -29,7 +29,7 @@ export const Contact = (e) => {
       email.current.value = ""
       message.current.value = ""
       phone.current.value = ""
-      
+          setIsActive(true);
         }, (error) => {
             console.log(error.text);
         });
@@ -70,7 +70,11 @@ export const Contact = (e) => {
                     </Col>
                     <Col size={12} className="px-1">
                       <textarea rows="6" placeholder="Message" ref={message} name='message' ></textarea>
-                      <button type="submit" onClick={() => setIsActive(!isActive)} ><span>Send</span></button>
+                      {!isActive && (
+                      <button type="submit" ><span>Send</span></button>
+                      )}
+                      <h2 className={`${isActive ? 'not-hidden' : 'hidden-text'}`}>Thank you!</h2>
+
                     </Col>
 
                   </Row>
