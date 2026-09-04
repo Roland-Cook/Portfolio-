@@ -63,10 +63,6 @@ export const Skills = () => {
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={TsImg} alt="img" />
-                                <h5>TypeScript</h5>
-                            </div>
-                            <div className="item">
                                 <img src={next} alt="img" />
                                 <h5>Next.js</h5>
                             </div>
