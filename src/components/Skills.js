@@ -3,7 +3,6 @@ import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
 import reactImg from "../assets/img/skillsImg/reactjs.png"
 import JsImg from "../assets/img/skillsImg/javascript.png"
-import TsImg from "../assets/img/skillsImg/typescript.png"
 import pyImg from "../assets/img/skillsImg/python.png"
 import twImg from "../assets/img/skillsImg/tailwind.png"
 import bs from "../assets/img/skillsImg/bootstrap.png"
